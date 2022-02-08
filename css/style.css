@@ -121,14 +121,14 @@ body {
 
 .first__aside {
   width: 100%;
-  background: url(../images/1.png) no-repeat center center;
+  background: url(../images/velocity.png) no-repeat center center;
   background-color: #e6e6e6;
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  height: 90vh;
 }
 
 .block {
-  height: 100vh;
+  height: 90vh;
   width: 50%;
   background-color: rgba(0, 0, 0, 0.8);
   position: relative;
@@ -166,13 +166,13 @@ body {
 .second__aside {
   width: 100%;
   background: url(../images/2.png) no-repeat center center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .third__aside {
   width: 100%;
   background: url(../images/3.png) no-repeat center center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .footer {
@@ -393,7 +393,7 @@ body {
 
 @media (min-width: 776px) and (max-width: 989.9px) {
   .wrapper {
-    max-width: 796px;
+    max-width: 989px;
   }
   .header {
     width: 100%;
@@ -469,7 +469,7 @@ body {
     font-size: 9.8rem;
     font-weight: 400;
     color: #333333;
-    margin: 6.5rem 2rem;
+    margin: 6.5rem 6rem;
   }
   .section__subtitle {
     position: relative;
@@ -481,9 +481,29 @@ body {
     display: block;
     margin: 2.5rem auto;
   }
+  .first__aside {
+    width: 100%;
+    background: url(../images/velocity.png) no-repeat center center;
+    background-color: #e6e6e6;
+    background-size: 61.75rem 85vh;
+    height: 85vh;
+  }
+  .second__aside {
+    width: 100%;
+    background: url(../images/2.png) no-repeat center center;
+    height: 85vh;
+    background-size: 61.75rem 85vh;
+  }
+  .third__aside {
+    width: 100%;
+    background: url(../images/3.png) no-repeat center center;
+    height: 85vh;
+    background-size: 61.75rem 85vh;
+  }
   .block {
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
+    height: 85vh;
   }
   .block__number {
     font-size: 2.7rem;
@@ -683,20 +703,39 @@ body {
     display: block;
     margin: 2.5rem auto;
   }
+  .first__aside {
+    width: 100%;
+    background: url(../images/velocity.png) no-repeat center center;
+    background-size: 48.1rem 71vh;
+    height: 70vh;
+  }
+  .second__aside {
+    width: 100%;
+    background: url(../images/2.png) no-repeat center center;
+    height: 70vh;
+    background-size: 48.1rem 70vh;
+  }
+  .third__aside {
+    width: 100%;
+    background: url(../images/3.png) no-repeat center center;
+    height: 70vh;
+    background-size: 48.1rem 70vh;
+  }
   .block {
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
+    height: 70vh;
   }
   .block__number {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .block__title {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: #fff;
     margin-bottom: 1.8rem;
   }
   .block .second__title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .block__subtitle {
     font-size: 0.8rem;
@@ -704,6 +743,7 @@ body {
     margin-bottom: 1rem;
   }
   .block__link {
+    font-size: 0.8rem;
     text-decoration: none;
     color: #fff;
   }
@@ -867,7 +907,7 @@ body {
   }
   .section {
     width: 100%;
-    margin: 4.5rem 0;
+    margin: 6.5rem 0;
   }
   .section__title {
     position: relative;
@@ -886,27 +926,42 @@ body {
     display: block;
     margin: 2rem auto;
   }
+  .first__aside {
+    background-color: #e6e6e6;
+    background-size: 29.37rem 51vh;
+    height: 50vh;
+  }
+  .second__aside {
+    height: 50vh;
+    background-size: 29.37rem 50vh;
+  }
+  .third__aside {
+    height: 50vh;
+    background-size: 29.37rem 50vh;
+  }
   .block {
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
+    height: 50vh;
   }
   .block__number {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .block__title {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #fff;
     margin-bottom: 1.2rem;
   }
   .block .second__title {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .block__subtitle {
-    font-size: .8rem;
+    font-size: .5rem;
     color: #7a7a7a;
     margin-bottom: 1rem;
   }
   .block__link {
+    font-size: 0.8rem;
     text-decoration: none;
     color: #fff;
   }
